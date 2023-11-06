@@ -6,6 +6,10 @@ def list_to_dict(input_list):
     index of that element in `input_list`. 
     '''
     pass
+    output_dict = {}
+    for n, item in enumerate(input_list):
+        output_dict[n] = item
+    return output_dict
 
 
 
