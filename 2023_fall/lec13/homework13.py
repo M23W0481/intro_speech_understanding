@@ -36,4 +36,5 @@ def read_nth_story(stories, n, filename):
 
     Output: None
     '''
-    raise RuntimeError('You need to write this part!')
+    #raise RuntimeError('You need to write this part!')
+    gtts.gTTS(test=stories[n][0]+""+storise[n][1], lang="en").save(filename)
